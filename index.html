@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html>
 
@@ -12,7 +11,8 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <link rel="stylesheet" href="stylesheets/page-style.css">
-    
+    <link rel="stylesheet" href="stylesheets/jquery.jsbox.css">
+
     <!-- Social -->
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53bbbbe907e85e8c"></script>
     <!-- // Social -->
@@ -20,12 +20,12 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    
-    
+
+
     <!--  Icons -->
     <link rel="icon" type="image/png" href="./images/icons/favicon-16x16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="./images/icons/favicon-32x32.png" sizes="32x32">
-    
+
     <!-- iOS 7 iPad (retina) -->
     <link href="./images/icons/apple-touch-icon-152x152.png" sizes="152x152" rel="apple-touch-icon">
 
@@ -76,9 +76,9 @@
                     </li>
                 </ul>
             </div>
-            
+
             <!-- Start Sharing Social Icon Box -->
-            <div class="addthis_sharing_toolbox" style="margin-left:70px"></div>    
+            <div class="addthis_sharing_toolbox" style="margin-left:70px"></div>
             <!-- // Sharing Social Icon Box -->
         </header>
 
@@ -115,6 +115,47 @@
                     </code>
                 </div>
             </section>
+            
+            <section>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </section>
+
+            <section>
+                <div class="jsbox" data-jsbox data-jsbox-next="#a">
+                    <code></code>
+                </div>
+                <script src="./js/jquery-2.1.1.min.js"></script>
+                <script src="./js/jquery.jsbox.js"></script>
+                <script>
+                    $('#enable').click(function() {
+                        $('[data-jsbox]').jsbox();
+                    });
+                    $('#disable').click(function() {
+                        $('[data-jsbox]').jsbox('dispose');
+                    });
+                </script>
+            </section>
+            
+            <section>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </section>
+            
+            <section>
+                <h3 class="title-code-block">Jsbox</h3>
+                <div class="jsbox" data-jsbox data-jsbox-next="#a">
+                    <code></code>
+                </div>
+                <script src="./js/jquery-2.1.1.min.js"></script>
+                <script src="./js/jquery.jsbox.js"></script>
+                <script>
+                    $('#enable').click(function() {
+                        $('[data-jsbox]').jsbox();
+                    });
+                    $('#disable').click(function() {
+                        $('[data-jsbox]').jsbox('dispose');
+                    });
+                </script>
+            </section>
 
 
             <section>
@@ -130,10 +171,10 @@
             </section>
 
             <section>
-              <div data-height="350" data-theme-id="7123" data-slug-hash="Itdzs" data-default-tab="html" class='codepen'><pre><code>&lt;h3&gt;Title&lt;/h3&gt;</code></pre>
-                  <p>See the Pen <a href='http://codepen.io/cibily/pen/Itdzs/'>Itdzs</a> by Silvia Trevellin (<a href='http://codepen.io/cibily'>@cibily</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-              </div>
-              <script async src="//codepen.io/assets/embed/ei.js"></script>
+                <div data-height="350" data-theme-id="7123" data-slug-hash="Itdzs" data-default-tab="html" class='codepen'><pre><code>&lt;h3&gt;Title&lt;/h3&gt;</code></pre>
+                    <p>See the Pen <a href='http://codepen.io/cibily/pen/Itdzs/'>Itdzs</a> by Silvia Trevellin (<a href='http://codepen.io/cibily'>@cibily</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+                </div>
+                <script async src="//codepen.io/assets/embed/ei.js"></script>
             </section>
 
             <section>
@@ -149,26 +190,26 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </section>
-            
+
             <section>
                 <h3 class="title-code-block">Github - Gists</h3>
                 <script src="https://gist.github.com/cibily/e3771ffb20e3ea29fb28.js"></script>
             </section>
-            
+
             <section>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </section>
-            
+
             <section>
                 <script src="https://gist.github.com/cibily/e3771ffb20e3ea29fb28.js"></script>
             </section>
-            
+
         </article>
 
 
     </div>
-   
+
 </body>
 
 </html>
